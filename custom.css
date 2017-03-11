@@ -1,0 +1,26 @@
+body{
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;    
+
+	animation: animatedBackground 30s linear infinite;
+	background-color: black;
+
+}
+
+#main-frame{
+	color: white;
+}
+@keyframes animatedBackground {
+
+	/*from { background-position: 0 300; }
+	to { background-position: 100% 200; }*/
+
+	0% {background-image: url('images/2.jpg')}
+	/*50%{ background-image: url('images/3.jpg') }*/
+	75%{ background-image: url('images/4.jpg') }
+	100%{ background-image: url('images/3.jpg') }
+}
